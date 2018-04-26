@@ -1,0 +1,46 @@
+CC = gcc
+DEBUG = -g
+VPATH = ./simIO:./utils:./simIO/utilsIO:./processor:./memory
+INCLUDES = -I simIO -I utils -I simIO/utilsIO -I processor -I memory
+CFLAGS = -Wall -std=c99 -pedantic $(INCLUDES) -c $(DEBUG)
+LFLAGS = -Wall -std=c99 -pedantic $(DEBUG)
+OBJECTS = maintest.o configParser.o metadataParser.o stringUtils.o ioUtils.o metaLinkedList.o simIO.o simTimer.o processor.o memory.o interupt.o
+
+sim: $(OBJECTS)
+	$(CC) $(LFLAGS) $(OBJECTS) -o sim -pthread
+
+maintest.o : maintest.c maintest.h
+	$(CC) $(CFLAGS) maintest.c
+
+memory.o : memory.c memory.h
+	$(CC) $(CFLAGS) memory/memory.c
+
+processor.o : processor.c processor.h
+	$(CC) $(CFLAGS) processor/processor.c
+
+interupt.o : interupt.c interupt.h
+	$(CC) $(CFLAGS) processor/interupt.c
+
+simTimer.o : simTimer.c simTimer.h
+	$(CC) $(CFLAGS) utils/simTimer.c
+
+simIO.o : simIO.c simIO.h
+	$(CC) $(CFLAGS) simIO/simIO.c
+
+configParser.o : configParser.c configParser.h
+	$(CC) $(CFLAGS) simIO/configParser.c
+
+metadataParser.o : metadataParser.c metadataParser.h
+	$(CC) $(CFLAGS) simIO/metadataParser.c
+
+metaLinkedList.o : metaLinkedList.c metaLinkedList.h
+	$(CC) $(CFLAGS) simIO/utilsIO/metaLinkedList.c
+
+stringUtils.o: stringUtils.c stringUtils.h
+	$(CC) $(CFLAGS) utils/stringUtils.c
+
+ioUtils.o: ioUtils.c ioUtils.h
+	$(CC) $(CFLAGS) simIO/utilsIO/ioUtils.c
+
+clean:
+	\rm *.o sim

@@ -1,0 +1,406 @@
+Time:  0.000000, System start
+Time:  0.000019, OS: Begin PCB Creation
+Time:  0.000028, OS: All processes initialized in New state
+Time:  0.000032, OS: All processes now set in Ready state
+Time:  0.000033, OS: FCFS-N Strategy selects Process 4 with time: 0 mSec
+Time:  0.000037, OS: Process 4 set in Running state
+Time:  0.000046, Process 4, MMU Allocation: 12/360/900
+Time:  0.000051, Process 4, MMU Allocation: Failed
+Time:  0.000054, OS: Process 4, Segmentation Fault - Process ended
+Time:  0.000055, OS: Process 4 set in Exit state
+Time:  0.000059, OS: FCFS-N Strategy selects Process 2 with time: 3350 mSec
+Time:  0.000060, OS: Process 2 set in Running state
+Time:  0.000064, Process 2, MMU Allocation: 12/260/100
+Time:  0.000065, Process 2, MMU Allocation: Success
+Time:  0.000069, Process 2, hard drive input start
+Time:  0.000109, OS: Process 2 set in Blocked state
+Time:  0.000116, OS: FCFS-N Strategy selects Process 3 with time: 3350 mSec
+Time:  0.000117, OS: Process 3 set in Running state
+Time:  0.000153, Process 3, MMU Allocation: 12/370/100
+Time:  0.000155, Process 3, MMU Allocation: Success
+Time:  0.000161, Process 3, hard drive input start
+Time:  0.000180, OS: Process 3 set in Blocked state
+Time:  0.000187, OS: FCFS-N Strategy selects Process 1 with time: 3920 mSec
+Time:  0.000188, OS: Process 1 set in Running state
+Time:  0.000194, Process 1, MMU Allocation: 10/245/100
+Time:  0.000199, Process 1, MMU Allocation: Failed
+Time:  0.000207, OS: Process 1, Segmentation Fault - Process ended
+Time:  0.000209, OS: Process 1 set in Exit state
+Time:  0.000214, OS: FCFS-N Strategy selects Process 7 with time: 4100 mSec
+Time:  0.000216, OS: Process 7 set in Running state
+Time:  0.000221, Process 7, hard drive output start
+Time:  0.000249, OS: Process 7 set in Blocked state
+Time:  0.000301, OS: FCFS-N Strategy selects Process 6 with time: 4420 mSec
+Time:  0.000304, OS: Process 6 set in Running state
+Time:  0.000310, Process 6, Run operation start
+Time:  0.051066, Process 6, quantum time out
+Time:  0.051101, OS: Process 6 set in Ready state
+Time:  0.051105, OS: FCFS-N Strategy selects Process 6 with time: 4370 mSec
+Time:  0.051109, OS: Process 6 set in Running state
+Time:  0.051110, Process 6, Run operation start
+Time:  0.113054, Process 6, quantum time out
+Time:  0.113069, OS: Process 6 set in Ready state
+Time:  0.113072, OS: FCFS-N Strategy selects Process 6 with time: 4320 mSec
+Time:  0.113077, OS: Process 6 set in Running state
+Time:  0.113079, Process 6, Run operation start
+Time:  0.143084, Process 6, Run operation end
+Time:  0.143129, Process 6, Run operation start
+Time:  0.193131, Process 6, quantum time out
+Time:  0.193141, OS: Process 6 set in Ready state
+Time:  0.193153, OS: FCFS-N Strategy selects Process 6 with time: 4240 mSec
+Time:  0.193154, OS: Process 6 set in Running state
+Time:  0.193159, Process 6, Run operation start
+Time:  0.233160, Process 6, Run operation end
+Time:  0.233171, Process 6, printer output start
+Time:  0.234856, OS: Process 6 set in Blocked state
+Time:  0.234871, OS: FCFS-N Strategy selects Process 0 with time: 6940 mSec
+Time:  0.234873, OS: Process 0 set in Running state
+Time:  0.234877, Process 0, MMU Allocation: 12/100/125
+Time:  0.234879, Process 0, MMU Allocation: Success
+Time:  0.234884, Process 0, hard drive input start
+Time:  0.247050, OS: Process 0 set in Blocked state
+Time:  0.247140, OS: FCFS-N Strategy selects Process 5 with time: 9420 mSec
+Time:  0.247142, OS: Process 5 set in Running state
+Time:  0.247176, Process 5, printer output start
+Time:  0.249674, OS: Process 5 set in Blocked state
+Time:  0.249688, OS: CPU Idle
+Time:  0.360249, OS: Handling Interupts
+Time:  0.360270, OS: Interupt, Process 3
+Time:  0.360272, Process 3, hard drive input end
+Time:  0.360278, OS: Process 3 set in Ready state
+Time:  0.360280, OS: FCFS-N Strategy selects Process 3 with time: 2990 mSec
+Time:  0.360285, OS: Process 3 set in Running state
+Time:  0.360288, Process 3, MMU Access: 12/100/55
+Time:  0.360293, Process 3, MMU Access: Failed
+Time:  0.360295, OS: Process 3, Segmentation Fault - Process ended
+Time:  0.360299, OS: Process 3 set in Exit state
+Time:  0.360301, OS: CPU Idle
+Time:  0.375318, OS: Handling Interupts
+Time:  0.375335, OS: Interupt, Process 2
+Time:  0.375337, Process 2, hard drive input end
+Time:  0.375342, OS: Process 2 set in Ready state
+Time:  0.375344, OS: FCFS-N Strategy selects Process 2 with time: 2990 mSec
+Time:  0.375348, OS: Process 2 set in Running state
+Time:  0.375351, Process 2, MMU Access: 12/100/55
+Time:  0.375355, Process 2, MMU Access: Failed
+Time:  0.375357, OS: Process 2, Segmentation Fault - Process ended
+Time:  0.375361, OS: Process 2 set in Exit state
+Time:  0.375363, OS: CPU Idle
+Time:  0.552713, OS: Handling Interupts
+Time:  0.552739, OS: Interupt, Process 7
+Time:  0.552742, Process 7, hard drive output end
+Time:  0.552749, OS: Process 7 set in Ready state
+Time:  0.552752, OS: FCFS-N Strategy selects Process 7 with time: 3560 mSec
+Time:  0.552758, OS: Process 7 set in Running state
+Time:  0.552762, Process 7, printer output start
+Time:  0.555570, OS: Process 7 set in Blocked state
+Time:  0.555580, OS: CPU Idle
+Time:  0.899631, OS: Handling Interupts
+Time:  0.899639, OS: Interupt, Process 0
+Time:  0.899650, Process 0, hard drive input end
+Time:  0.899652, OS: Process 0 set in Ready state
+Time:  0.899657, OS: FCFS-N Strategy selects Process 0 with time: 6280 mSec
+Time:  0.899659, OS: Process 0 set in Running state
+Time:  0.899664, Process 0, hard drive output start
+Time:  0.899687, OS: Process 0 set in Blocked state
+Time:  0.899693, OS: CPU Idle
+Time:  0.933270, OS: Handling Interupts
+Time:  0.933287, OS: Interupt, Process 6
+Time:  0.933289, Process 6, printer output end
+Time:  0.933294, OS: Process 6 set in Ready state
+Time:  0.933297, OS: FCFS-N Strategy selects Process 6 with time: 3500 mSec
+Time:  0.933301, OS: Process 6 set in Running state
+Time:  0.933303, Process 6, hard drive input start
+Time:  0.933328, OS: Process 6 set in Blocked state
+Time:  0.933331, OS: CPU Idle
+Time:  1.047353, OS: Handling Interupts
+Time:  1.047363, OS: Interupt, Process 5
+Time:  1.047373, Process 5, printer output end
+Time:  1.047375, OS: Process 5 set in Ready state
+Time:  1.047380, OS: FCFS-N Strategy selects Process 5 with time: 8620 mSec
+Time:  1.047382, OS: Process 5 set in Running state
+Time:  1.047387, Process 5, printer output start
+Time:  1.157485, OS: Process 5 set in Blocked state
+Time:  1.157497, OS: CPU Idle
+Time:  1.439740, OS: Handling Interupts
+Time:  1.439755, OS: Interupt, Process 0
+Time:  1.439758, Process 0, hard drive output end
+Time:  1.439763, OS: Process 0 set in Ready state
+Time:  1.439765, OS: FCFS-N Strategy selects Process 0 with time: 5740 mSec
+Time:  1.439770, OS: Process 0 set in Running state
+Time:  1.439772, Process 0, keyboard input start
+Time:  1.440912, OS: Process 0 set in Blocked state
+Time:  1.440917, OS: CPU Idle
+Time:  1.553121, OS: Handling Interupts
+Time:  1.553131, OS: Interupt, Process 7
+Time:  1.553142, Process 7, printer output end
+Time:  1.553145, OS: Process 7 set in Ready state
+Time:  1.553152, OS: FCFS-N Strategy selects Process 7 with time: 2560 mSec
+Time:  1.553154, OS: Process 7 set in Running state
+Time:  1.553159, Process 7, Run operation start
+Time:  1.603161, Process 7, quantum time out
+Time:  1.603177, OS: Process 7 set in Ready state
+Time:  1.603192, OS: FCFS-N Strategy selects Process 7 with time: 2510 mSec
+Time:  1.603194, OS: Process 7 set in Running state
+Time:  1.603199, Process 7, Run operation start
+Time:  1.653201, Process 7, quantum time out
+Time:  1.653219, OS: Process 7 set in Ready state
+Time:  1.653222, OS: FCFS-N Strategy selects Process 7 with time: 2460 mSec
+Time:  1.653226, OS: Process 7 set in Running state
+Time:  1.653228, Process 7, Run operation start
+Time:  1.693976, Process 7, Run operation end
+Time:  1.693988, Process 7, Run operation start
+Time:  1.744001, Process 7, quantum time out
+Time:  1.744013, OS: Process 7 set in Ready state
+Time:  1.744024, OS: FCFS-N Strategy selects Process 7 with time: 2370 mSec
+Time:  1.744026, OS: Process 7 set in Running state
+Time:  1.744031, Process 7, Run operation start
+Time:  1.744033, OS: Process 7 set in Ready state
+Time:  1.744038, OS: Handling Interupts
+Time:  1.744040, OS: Interupt, Process 6
+Time:  1.744044, Process 6, hard drive input end
+Time:  1.744046, OS: Process 6 set in Ready state
+Time:  1.744052, OS: FCFS-N Strategy selects Process 7 with time: 2370 mSec
+Time:  1.744056, OS: Process 7 set in Running state
+Time:  1.744061, Process 7, Run operation start
+Time:  1.784062, Process 7, Run operation end
+Time:  1.784074, Process 7, hard drive input start
+Time:  1.784110, OS: Process 7 set in Blocked state
+Time:  1.784114, OS: FCFS-N Strategy selects Process 6 with time: 2720 mSec
+Time:  1.784119, OS: Process 6 set in Running state
+Time:  1.784122, Process 6, hard drive output start
+Time:  1.784200, OS: Process 6 set in Blocked state
+Time:  1.784204, OS: CPU Idle
+Time:  2.084148, OS: Handling Interupts
+Time:  2.084179, OS: Interupt, Process 7
+Time:  2.084185, Process 7, hard drive input end
+Time:  2.084193, OS: Process 7 set in Ready state
+Time:  2.084195, OS: FCFS-N Strategy selects Process 7 with time: 2030 mSec
+Time:  2.084200, OS: Process 7 set in Running state
+Time:  2.084202, Process 7, Run operation start
+Time:  2.134240, Process 7, quantum time out
+Time:  2.134252, OS: Process 7 set in Ready state
+Time:  2.134264, OS: FCFS-N Strategy selects Process 7 with time: 1980 mSec
+Time:  2.134267, OS: Process 7 set in Running state
+Time:  2.134274, Process 7, Run operation start
+Time:  2.186112, Process 7, quantum time out
+Time:  2.186123, OS: Process 7 set in Ready state
+Time:  2.186136, OS: FCFS-N Strategy selects Process 7 with time: 1930 mSec
+Time:  2.186139, OS: Process 7 set in Running state
+Time:  2.186145, Process 7, Run operation start
+Time:  2.186147, OS: Process 7 set in Ready state
+Time:  2.186153, OS: Handling Interupts
+Time:  2.186155, OS: Interupt, Process 5
+Time:  2.186160, Process 5, printer output end
+Time:  2.186162, OS: Process 5 set in Ready state
+Time:  2.186168, OS: FCFS-N Strategy selects Process 7 with time: 1930 mSec
+Time:  2.186171, OS: Process 7 set in Running state
+Time:  2.186176, Process 7, Run operation start
+Time:  2.226178, Process 7, Run operation end
+Time:  2.226196, Process 7, printer output start
+Time:  2.226226, OS: Process 7 set in Blocked state
+Time:  2.226234, OS: FCFS-N Strategy selects Process 5 with time: 7520 mSec
+Time:  2.226236, OS: Process 5 set in Running state
+Time:  2.226241, Process 5, hard drive input start
+Time:  2.250706, OS: Process 5 set in Blocked state
+Time:  2.250726, OS: CPU Idle
+Time:  2.266176, OS: Handling Interupts
+Time:  2.266195, OS: Interupt, Process 6
+Time:  2.266198, Process 6, hard drive output end
+Time:  2.266203, OS: Process 6 set in Ready state
+Time:  2.266206, OS: FCFS-N Strategy selects Process 6 with time: 2240 mSec
+Time:  2.266211, OS: Process 6 set in Running state
+Time:  2.266214, Process 6, keyboard input start
+Time:  2.275806, OS: Process 6 set in Blocked state
+Time:  2.275828, OS: CPU Idle
+Time:  2.646286, OS: Handling Interupts
+Time:  2.646306, OS: Interupt, Process 5
+Time:  2.646309, Process 5, hard drive input end
+Time:  2.646328, OS: Process 5 set in Ready state
+Time:  2.646331, OS: FCFS-N Strategy selects Process 5 with time: 7100 mSec
+Time:  2.646336, OS: Process 5 set in Running state
+Time:  2.646339, Process 5, hard drive output start
+Time:  2.646366, OS: Process 5 set in Blocked state
+Time:  2.646369, OS: CPU Idle
+Time:  3.039818, OS: Handling Interupts
+Time:  3.039842, OS: Interupt, Process 0
+Time:  3.039845, Process 0, keyboard input end
+Time:  3.039851, OS: Process 0 set in Ready state
+Time:  3.039854, OS: FCFS-N Strategy selects Process 0 with time: 4140 mSec
+Time:  3.039861, OS: Process 0 set in Running state
+Time:  3.039863, Process 0, hard drive input start
+Time:  3.039892, OS: Process 0 set in Blocked state
+Time:  3.039895, OS: CPU Idle
+Time:  3.229955, OS: Handling Interupts
+Time:  3.229975, OS: Interupt, Process 7
+Time:  3.229981, Process 7, printer output end
+Time:  3.229984, OS: Process 7 set in Ready state
+Time:  3.229990, OS: FCFS-N Strategy selects Process 7 with time: 890 mSec
+Time:  3.229992, OS: Process 7 set in Running state
+Time:  3.229997, Process 7, hard drive output start
+Time:  3.230022, OS: Process 7 set in Blocked state
+Time:  3.230028, OS: CPU Idle
+Time:  3.269423, OS: Handling Interupts
+Time:  3.269435, OS: Interupt, Process 6
+Time:  3.269438, Process 6, keyboard input end
+Time:  3.269444, OS: Process 6 set in Ready state
+Time:  3.269447, OS: FCFS-N Strategy selects Process 6 with time: 1240 mSec
+Time:  3.269452, OS: Process 6 set in Running state
+Time:  3.269455, Process 6, Run operation start
+Time:  3.319460, Process 6, quantum time out
+Time:  3.319470, OS: Process 6 set in Ready state
+Time:  3.319482, OS: FCFS-N Strategy selects Process 6 with time: 1190 mSec
+Time:  3.319484, OS: Process 6 set in Running state
+Time:  3.319489, Process 6, Run operation start
+Time:  3.369492, Process 6, quantum time out
+Time:  3.369502, OS: Process 6 set in Ready state
+Time:  3.369511, OS: FCFS-N Strategy selects Process 6 with time: 1140 mSec
+Time:  3.369514, OS: Process 6 set in Running state
+Time:  3.369519, Process 6, Run operation start
+Time:  3.399521, Process 6, Run operation end
+Time:  3.399531, Process 6, hard drive output start
+Time:  3.399565, OS: Process 6 set in Blocked state
+Time:  3.399568, OS: CPU Idle
+Time:  3.399924, OS: Handling Interupts
+Time:  3.399938, OS: Interupt, Process 0
+Time:  3.399941, Process 0, hard drive input end
+Time:  3.399947, OS: Process 0 set in Ready state
+Time:  3.399950, OS: FCFS-N Strategy selects Process 0 with time: 3780 mSec
+Time:  3.399955, OS: Process 0 set in Running state
+Time:  3.399958, Process 0, MMU Access: 12/100/55
+Time:  3.399964, Process 0, MMU Access: Success
+Time:  3.399966, Process 0, hard drive output start
+Time:  3.401497, OS: Process 0 set in Blocked state
+Time:  3.401507, OS: CPU Idle
+Time:  3.546568, OS: Handling Interupts
+Time:  3.546578, OS: Interupt, Process 5
+Time:  3.546589, Process 5, hard drive output end
+Time:  3.546592, OS: Process 5 set in Ready state
+Time:  3.546598, OS: FCFS-N Strategy selects Process 5 with time: 6200 mSec
+Time:  3.546600, OS: Process 5 set in Running state
+Time:  3.546606, Process 5, printer output start
+Time:  3.556480, OS: Process 5 set in Blocked state
+Time:  3.556494, OS: CPU Idle
+Time:  3.650054, OS: Handling Interupts
+Time:  3.650076, OS: Interupt, Process 7
+Time:  3.650090, Process 7, hard drive output end
+Time:  3.650097, OS: Process 7 set in Ready state
+Time:  3.650100, OS: FCFS-N Strategy selects Process 7 with time: 470 mSec
+Time:  3.650105, OS: Process 7 set in Running state
+Time:  3.650108, Process 7, hard drive input start
+Time:  3.650134, OS: Process 7 set in Blocked state
+Time:  3.650137, OS: CPU Idle
+Time:  3.699625, OS: Handling Interupts
+Time:  3.699640, OS: Interupt, Process 6
+Time:  3.699643, Process 6, hard drive output end
+Time:  3.699649, OS: Process 6 set in Ready state
+Time:  3.699652, OS: FCFS-N Strategy selects Process 6 with time: 810 mSec
+Time:  3.699657, OS: Process 6 set in Running state
+Time:  3.699659, Process 6, Run operation start
+Time:  3.749664, Process 6, quantum time out
+Time:  3.749675, OS: Process 6 set in Ready state
+Time:  3.749687, OS: FCFS-N Strategy selects Process 6 with time: 760 mSec
+Time:  3.749690, OS: Process 6 set in Running state
+Time:  3.749695, Process 6, Run operation start
+Time:  3.789697, Process 6, Run operation end
+Time:  3.789707, Process 6, hard drive input start
+Time:  3.791186, OS: Process 6 set in Blocked state
+Time:  3.791193, OS: CPU Idle
+Time:  4.072315, OS: Handling Interupts
+Time:  4.072333, OS: Interupt, Process 7
+Time:  4.072337, Process 7, hard drive input end
+Time:  4.072342, OS: Process 7 set in Ready state
+Time:  4.072345, OS: FCFS-N Strategy selects Process 7 with time: 50 mSec
+Time:  4.072350, OS: Process 7 set in Running state
+Time:  4.072353, Process 7, Run operation start
+Time:  4.122360, Process 7, Run operation end
+Time:  4.122373, OS: Process 7 set in Exit state
+Time:  4.122386, OS: CPU Idle
+Time:  4.180002, OS: Handling Interupts
+Time:  4.180024, OS: Interupt, Process 0
+Time:  4.180027, Process 0, hard drive output end
+Time:  4.180033, OS: Process 0 set in Ready state
+Time:  4.180036, OS: FCFS-N Strategy selects Process 0 with time: 3000 mSec
+Time:  4.180041, OS: Process 0 set in Running state
+Time:  4.180044, Process 0, printer output start
+Time:  4.180073, OS: Process 0 set in Blocked state
+Time:  4.180077, OS: CPU Idle
+Time:  4.509765, OS: Handling Interupts
+Time:  4.509776, OS: Interupt, Process 6
+Time:  4.509786, Process 6, hard drive input end
+Time:  4.509790, OS: Process 6 set in Ready state
+Time:  4.509796, OS: FCFS-N Strategy selects Process 6 with time: 0 mSec
+Time:  4.509799, OS: Process 6 set in Running state
+Time:  4.509805, OS: Process 6 set in Exit state
+Time:  4.509808, OS: CPU Idle
+Time:  4.646651, OS: Handling Interupts
+Time:  4.646661, OS: Interupt, Process 5
+Time:  4.646674, Process 5, printer output end
+Time:  4.646689, OS: Process 5 set in Ready state
+Time:  4.646697, OS: FCFS-N Strategy selects Process 5 with time: 5100 mSec
+Time:  4.646699, OS: Process 5 set in Running state
+Time:  4.646704, Process 5, Run operation start
+Time:  4.696845, Process 5, quantum time out
+Time:  4.696962, OS: Process 5 set in Ready state
+Time:  4.696979, OS: FCFS-N Strategy selects Process 5 with time: 5050 mSec
+Time:  4.696981, OS: Process 5 set in Running state
+Time:  4.696986, Process 5, Run operation start
+Time:  4.746989, Process 5, quantum time out
+Time:  4.746999, OS: Process 5 set in Ready state
+Time:  4.747009, OS: FCFS-N Strategy selects Process 5 with time: 5000 mSec
+Time:  4.747011, OS: Process 5 set in Running state
+Time:  4.747016, Process 5, Run operation start
+Time:  4.767018, Process 5, Run operation end
+Time:  4.767034, Process 5, Run operation start
+Time:  4.817036, Process 5, quantum time out
+Time:  4.817052, OS: Process 5 set in Ready state
+Time:  4.817056, OS: FCFS-N Strategy selects Process 5 with time: 4930 mSec
+Time:  4.817061, OS: Process 5 set in Running state
+Time:  4.817063, Process 5, Run operation start
+Time:  4.847068, Process 5, Run operation end
+Time:  4.847082, Process 5, keyboard input start
+Time:  4.847112, OS: Process 5 set in Blocked state
+Time:  4.847133, OS: CPU Idle
+Time:  4.980106, OS: Handling Interupts
+Time:  4.980118, OS: Interupt, Process 0
+Time:  4.980131, Process 0, printer output end
+Time:  4.980135, OS: Process 0 set in Ready state
+Time:  4.980144, OS: FCFS-N Strategy selects Process 0 with time: 2200 mSec
+Time:  4.980147, OS: Process 0 set in Running state
+Time:  4.980154, Process 0, keyboard input start
+Time:  4.980178, OS: Process 0 set in Blocked state
+Time:  4.980186, OS: CPU Idle
+Time:  6.847129, OS: Handling Interupts
+Time:  6.847146, OS: Interupt, Process 5
+Time:  6.847150, Process 5, keyboard input end
+Time:  6.847156, OS: Process 5 set in Ready state
+Time:  6.847160, OS: FCFS-N Strategy selects Process 5 with time: 2900 mSec
+Time:  6.847166, OS: Process 5 set in Running state
+Time:  6.847185, Process 5, keyboard input start
+Time:  6.847208, OS: Process 5 set in Blocked state
+Time:  6.847216, OS: CPU Idle
+Time:  7.180204, OS: Handling Interupts
+Time:  7.180222, OS: Interupt, Process 0
+Time:  7.180226, Process 0, keyboard input end
+Time:  7.180232, OS: Process 0 set in Ready state
+Time:  7.180235, OS: FCFS-N Strategy selects Process 0 with time: 0 mSec
+Time:  7.180241, OS: Process 0 set in Running state
+Time:  7.180245, OS: Process 0 set in Exit state
+Time:  7.180251, OS: CPU Idle
+Time:  8.847238, OS: Handling Interupts
+Time:  8.847255, OS: Interupt, Process 5
+Time:  8.847258, Process 5, keyboard input end
+Time:  8.847263, OS: Process 5 set in Ready state
+Time:  8.847266, OS: FCFS-N Strategy selects Process 5 with time: 900 mSec
+Time:  8.847272, OS: Process 5 set in Running state
+Time:  8.847274, Process 5, hard drive input start
+Time:  8.847298, OS: Process 5 set in Blocked state
+Time:  8.847302, OS: CPU Idle
+Time:  9.747343, OS: Handling Interupts
+Time:  9.747364, OS: Interupt, Process 5
+Time:  9.747367, Process 5, hard drive input end
+Time:  9.747376, OS: Process 5 set in Ready state
+Time:  9.747379, OS: FCFS-N Strategy selects Process 5 with time: 0 mSec
+Time:  9.747384, OS: Process 5 set in Running state
+Time:  9.747387, OS: Process 5 set in Exit state
+Time:  9.747396, System stop

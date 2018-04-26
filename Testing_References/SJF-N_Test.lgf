@@ -1,0 +1,144 @@
+Time:  0.000000, System start
+Time:  0.000060, OS: Begin PCB Creation
+Time:  0.000151, OS: All processes initialized in New state
+Time:  0.000156, OS: All processes now set in Ready state
+Time:  0.000162, OS: SJF-N Strategy selects Process 4 with time: 0 mSec
+Time:  0.000167, OS: Process 4 set in Running state
+Time:  0.000179, Process 4, MMU Allocation: 12/360/900
+Time:  0.000185, Process 4, MMU Allocation: Failed
+Time:  0.000187, OS: Process 4, Segmentation Fault - Process ended
+Time:  0.000191, OS: Process 4 set in Exit state
+Time:  0.000193, OS: SJF-N Strategy selects Process 2 with time: 3350 mSec
+Time:  0.000199, OS: Process 2 set in Running state
+Time:  0.000204, Process 2, MMU Allocation: 12/260/100
+Time:  0.000209, Process 2, MMU Allocation: Success
+Time:  0.000210, Process 2, hard drive input start
+Time:  0.360347, Process 2, hard drive input end
+Time:  0.360357, Process 2, MMU Access: 12/100/55
+Time:  0.360367, Process 2, MMU Access: Failed
+Time:  0.360369, OS: Process 2, Segmentation Fault - Process ended
+Time:  0.360373, OS: Process 2 set in Exit state
+Time:  0.360375, OS: SJF-N Strategy selects Process 3 with time: 3350 mSec
+Time:  0.360379, OS: Process 3 set in Running state
+Time:  0.360380, Process 3, MMU Allocation: 12/370/100
+Time:  0.360384, Process 3, MMU Allocation: Success
+Time:  0.360385, Process 3, hard drive input start
+Time:  0.720436, Process 3, hard drive input end
+Time:  0.720453, Process 3, MMU Access: 12/100/55
+Time:  0.720458, Process 3, MMU Access: Failed
+Time:  0.720459, OS: Process 3, Segmentation Fault - Process ended
+Time:  0.720463, OS: Process 3 set in Exit state
+Time:  0.720465, OS: SJF-N Strategy selects Process 1 with time: 3920 mSec
+Time:  0.720469, OS: Process 1 set in Running state
+Time:  0.720470, Process 1, MMU Allocation: 10/245/100
+Time:  0.720474, Process 1, MMU Allocation: Success
+Time:  0.720476, Process 1, hard drive input start
+Time:  1.140539, Process 1, hard drive input end
+Time:  1.140581, Process 1, hard drive input start
+Time:  2.040639, Process 1, hard drive input end
+Time:  2.040663, Process 1, monitor output start
+Time:  2.320718, Process 1, monitor output end
+Time:  2.320748, Process 1, Run operation start
+Time:  2.370751, Process 1, Run operation end
+Time:  2.370767, Process 1, Run operation start
+Time:  2.450780, Process 1, Run operation end
+Time:  2.450803, Process 1, hard drive input start
+Time:  3.230869, Process 1, hard drive input end
+Time:  3.230878, Process 1, MMU Access: 10/250/50
+Time:  3.230886, Process 1, MMU Access: Success
+Time:  3.230888, Process 1, printer output start
+Time:  4.530940, Process 1, printer output end
+Time:  4.530955, Process 1, Run operation start
+Time:  4.640957, Process 1, Run operation end
+Time:  4.640999, OS: Process 1 set in Exit state
+Time:  4.641002, OS: SJF-N Strategy selects Process 7 with time: 4100 mSec
+Time:  4.641008, OS: Process 7 set in Running state
+Time:  4.641010, Process 7, hard drive output start
+Time:  5.181092, Process 7, hard drive output end
+Time:  5.181102, Process 7, printer output start
+Time:  6.181160, Process 7, printer output end
+Time:  6.181170, Process 7, Run operation start
+Time:  6.321179, Process 7, Run operation end
+Time:  6.321188, Process 7, Run operation start
+Time:  6.411197, Process 7, Run operation end
+Time:  6.411206, Process 7, hard drive input start
+Time:  6.711270, Process 7, hard drive input end
+Time:  6.711280, Process 7, Run operation start
+Time:  6.851290, Process 7, Run operation end
+Time:  6.851300, Process 7, printer output start
+Time:  7.851373, Process 7, printer output end
+Time:  7.851384, Process 7, hard drive output start
+Time:  8.271450, Process 7, hard drive output end
+Time:  8.271460, Process 7, hard drive input start
+Time:  8.691534, Process 7, hard drive input end
+Time:  8.691552, Process 7, Run operation start
+Time:  8.741555, Process 7, Run operation end
+Time:  8.741567, OS: Process 7 set in Exit state
+Time:  8.741578, OS: SJF-N Strategy selects Process 6 with time: 4420 mSec
+Time:  8.741580, OS: Process 6 set in Running state
+Time:  8.741584, Process 6, Run operation start
+Time:  8.871585, Process 6, Run operation end
+Time:  8.871620, Process 6, Run operation start
+Time:  8.961624, Process 6, Run operation end
+Time:  8.961637, Process 6, printer output start
+Time:  9.661720, Process 6, printer output end
+Time:  9.661737, Process 6, hard drive input start
+Time: 10.441818, Process 6, hard drive input end
+Time: 10.441837, Process 6, hard drive output start
+Time: 10.921928, Process 6, hard drive output end
+Time: 10.921946, Process 6, keyboard input start
+Time: 11.922021, Process 6, keyboard input end
+Time: 11.922031, Process 6, Run operation start
+Time: 12.052040, Process 6, Run operation end
+Time: 12.052050, Process 6, hard drive output start
+Time: 12.352140, Process 6, hard drive output end
+Time: 12.352162, Process 6, Run operation start
+Time: 12.442165, Process 6, Run operation end
+Time: 12.442214, Process 6, hard drive input start
+Time: 13.162341, Process 6, hard drive input end
+Time: 13.162383, OS: Process 6 set in Exit state
+Time: 13.162390, OS: SJF-N Strategy selects Process 0 with time: 6940 mSec
+Time: 13.162404, OS: Process 0 set in Running state
+Time: 13.162408, Process 0, MMU Allocation: 12/100/125
+Time: 13.162420, Process 0, MMU Allocation: Success
+Time: 13.162423, Process 0, hard drive input start
+Time: 13.822529, Process 0, hard drive input end
+Time: 13.822540, Process 0, hard drive output start
+Time: 14.362608, Process 0, hard drive output end
+Time: 14.362620, Process 0, keyboard input start
+Time: 15.962684, Process 0, keyboard input end
+Time: 15.962694, Process 0, hard drive input start
+Time: 16.322760, Process 0, hard drive input end
+Time: 16.322769, Process 0, MMU Access: 12/100/55
+Time: 16.322779, Process 0, MMU Access: Success
+Time: 16.322781, Process 0, hard drive output start
+Time: 17.102835, Process 0, hard drive output end
+Time: 17.102844, Process 0, printer output start
+Time: 17.902895, Process 0, printer output end
+Time: 17.902905, Process 0, keyboard input start
+Time: 20.103016, Process 0, keyboard input end
+Time: 20.103029, OS: Process 0 set in Exit state
+Time: 20.103040, OS: SJF-N Strategy selects Process 5 with time: 9420 mSec
+Time: 20.103043, OS: Process 5 set in Running state
+Time: 20.103046, Process 5, printer output start
+Time: 20.903109, Process 5, printer output end
+Time: 20.903118, Process 5, printer output start
+Time: 22.003286, Process 5, printer output end
+Time: 22.003366, Process 5, hard drive input start
+Time: 22.423508, Process 5, hard drive input end
+Time: 22.423523, Process 5, hard drive output start
+Time: 23.323570, Process 5, hard drive output end
+Time: 23.323582, Process 5, printer output start
+Time: 24.423639, Process 5, printer output end
+Time: 24.423651, Process 5, Run operation start
+Time: 24.543659, Process 5, Run operation end
+Time: 24.543669, Process 5, Run operation start
+Time: 24.623678, Process 5, Run operation end
+Time: 24.623690, Process 5, keyboard input start
+Time: 26.623766, Process 5, keyboard input end
+Time: 26.623774, Process 5, keyboard input start
+Time: 28.623837, Process 5, keyboard input end
+Time: 28.623854, Process 5, hard drive input start
+Time: 29.523901, Process 5, hard drive input end
+Time: 29.523918, OS: Process 5 set in Exit state
+Time: 29.523924, System stop
